@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ঢাকা নিউজ</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; color:#222; }
+    header { background:#c8102e; color:white; padding:20px; text-align:center; }
+    header h1 { margin:0; font-size:2rem; }
+    nav { background:#900; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 10px; text-decoration:none; font-weight:bold; }
+    nav a:hover { text-decoration:underline; }
+    main { max-width:1000px; margin:20px auto; padding:0 15px; }
+    .headline { background:white; padding:20px; border-left:5px solid #c8102e;
+                margin-bottom:20px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,.1); }
+    .headline h2 { margin-top:0; color:#c8102e; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+            gap:20px; }
+    .post { background:white; padding:15px; border-radius:6px;
+            box-shadow:0 2px 6px rgba(0,0,0,.08); }
+    .post h3 { margin-top:0; color:#c8102e; }
+    footer { background:#222; color:#eee; text-align:center; padding:15px; margin-top:30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ঢাকা নিউজ</h1>
+    <p>ঢাকার সর্বশেষ খবর আপনার জন্য</p>
+  </header>
+
+  <nav>
+    <a href="#">জাতীয়</a>
+    <a href="#">খেলা</a>
+    <a href="#">বিনোদন</a>
+    <a href="#">আন্তর্জাতিক</a>
+  </nav>
+
+  <main>
+    <section class="headline">
+      <h2>আজকের প্রধান খবর</h2>
+      <p>ঢাকায় আজ সকাল থেকে প্রবল বৃষ্টিপাত, নগরীর বিভিন্ন এলাকায় জলাবদ্ধতা তৈরি হয়েছে। নাগরিকরা চরম ভোগান্তিতে পড়েছেন।</p>
+    </section>
+
+    <div class="grid">
+      <div class="post">
+        <h3>খেলার খবর</h3>
+        <p>বাংলাদেশ ক্রিকেট দল জিতলো সিরিজের প্রথম ম্যাচ। সমর্থকদের মাঝে উৎসবের আমেজ।</p>
+      </div>
+      <div class="post">
+        <h3>বিনোদন</h3>
+        <p>জনপ্রিয় অভিনেতা নতুন ছবির ঘোষণা দিলেন, যা শীঘ্রই মুক্তি পাবে।</p>
+      </div>
+      <div class="post">
+        <h3>আন্তর্জাতিক</h3>
+        <p>বিশ্বজুড়ে জ্বালানি তেলের দাম বাড়ছে, অর্থনীতিতে চাপ তৈরি হয়েছে।</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © ২০২৫ ঢাকা নিউজ | সর্বস্বত্ব সংরক্ষিত
+  </footer>
+</body>
+</html>
